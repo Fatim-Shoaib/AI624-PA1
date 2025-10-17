@@ -6,7 +6,7 @@
 - Create training and test loaders
 - Choose appropriate batch size
 - Use the loaded VGG16-BN model and CIFAR dataset to perform the following:
-  1.  Peak GPU memory, average GPU memory (averaged across operations), end-to-end inference latency, (ms) pre batch using torch.profiler
+  1.  Peak GPU memory, average GPU memory (averaged across operations), end-to-end inference latency (ms) pre batch using torch.profiler
   2.  Energy useage (both CPU and GPU) using pyJoules
   3. Compute serialized model size in MB
   4. Record number of MACs using torchprofile
@@ -15,3 +15,13 @@
 
 
 # Task 1
+
+# Resources
+
+## Task 0
+- py tutorials: https://docs.pytorch.org/tutorials/
+- profiling tutorial: https://docs.pytorch.org/tutorials/intermediate/fx_profiling_tutorial.html
+- profiling tutorial: https://docs.pytorch.org/tutorials/beginner/hta_trace_diff_tutorial.html
+- profiling tutorial: https://docs.pytorch.org/tutorials/beginner/hta_intro_tutorial.html
+- profiling tutorial: https://docs.pytorch.org/tutorials/beginner/profiler.html
+
